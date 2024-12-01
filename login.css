@@ -1,0 +1,139 @@
+/* LOGIN */
+*{
+    box-sizing: border-box;
+    font-family: arial;
+}
+body{
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/bg-login.png);
+}
+.signin {
+    position: absolute;
+    width: 870px;
+    height: 550px;
+    z-index: 1000;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.9);
+    background-color: #FFFF ;
+    left: 350px;
+    top: 50px;
+    border-radius: 10px;
+
+}
+.welcome{
+    height: 95%;
+    width: 450px;
+    background-color: #FDBF50;
+    position: absolute;
+    right: 400px;
+    border-radius: 20px;
+    top: 10px;
+}
+.welcome h1{
+    position: relative;
+    top: 210px;
+    left: 50px;
+    font-size: 4em;
+    width: 40px;
+    color: white;
+    text-shadow: 12px 6px 15px rgba(0,0,0,0.3);
+}
+.welcome #logo{
+    position: absolute;
+    height: 170px;
+    left: 130px;
+    top: 30px;
+}
+.content{
+    position: relative;
+    float: right;
+    right: 190px;
+}
+.text{
+    position: relative;
+    top: 20px;
+}
+
+.text #admin{
+    font-size: 40px;
+    margin: 0;
+}
+.text #signin{
+    margin-top: 0;
+}
+.userpass{
+    position: relative;
+    top: 100px;
+}
+.userpass h4{
+    margin: 0;
+}
+/* input text for entering email   */
+.userpass #user{
+    margin: 0;
+    width: 300px;
+    height: 30px;
+}
+/* to prevent from moving values changed   */
+.userpass input{
+    position: absolute;
+}
+
+.password{
+    position: relative;
+    margin-top: 60px;
+}
+.password #chk{
+    margin-top: 18px;
+}
+ /* input text for entering password   */
+.password #pwd{
+    margin: 0;
+    width: 300px;
+    height: 30px;
+}
+.password p{
+    margin-left: 20px;
+}
+.links{
+    position: relative;
+    left: 180px;
+    bottom: 30px;
+}
+.links a{
+    text-decoration: none;
+}
+
+.login{
+    position: absolute;
+    height: 50px;
+    width: 300px;
+
+}
+.login #log{
+    position: absolute;
+    height: 50px;
+    width: 300px;
+    background-color: #FDBF50;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 2px 5px 4px #888888;;
+    z-index: 1;
+}
+.login #log:hover{
+    background-color: #FF724C;
+}
+.login p{
+    display: flex;
+    justify-content: center;
+}
+.login a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    z-index: 1;
+    margin: 0;
+}
